@@ -1,0 +1,11 @@
+var randomBodyParts = ["глаз", "нос", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+var obidaBp = randomBodyParts [Math.floor(Math.random() * 3)];
+var obidaAj = randomAdjectives [Math.floor(Math.random() * 3)];
+var obidaW = randomWords [Math.floor(Math.random() * 5)];
+var obidaBp = randomBodyParts [Math.floor(Math.random() * 3)];
+var obidaAj = randomAdjectives [Math.floor(Math.random() * 3)];
+var obidaW = randomWords [Math.floor(Math.random() * 5)];
+var obidka = ["У тебя", obidaBp, "словно", obidaAj, "стремная", obidaW].join(" ");
+obidka
